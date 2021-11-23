@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/MicrosoftWebsite/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/MicrosoftWebsite/static/js/main.1ad29af8.chunk.js",
-    "main.js.map": "/MicrosoftWebsite/static/js/main.1ad29af8.chunk.js.map",
-    "runtime-main.js": "/MicrosoftWebsite/static/js/runtime-main.495623ba.js",
-    "runtime-main.js.map": "/MicrosoftWebsite/static/js/runtime-main.495623ba.js.map",
-    "static/js/2.b1a89cb5.chunk.js": "/MicrosoftWebsite/static/js/2.b1a89cb5.chunk.js",
-    "static/js/2.b1a89cb5.chunk.js.map": "/MicrosoftWebsite/static/js/2.b1a89cb5.chunk.js.map",
-    "static/js/3.3ed8819c.chunk.js": "/MicrosoftWebsite/static/js/3.3ed8819c.chunk.js",
-    "static/js/3.3ed8819c.chunk.js.map": "/MicrosoftWebsite/static/js/3.3ed8819c.chunk.js.map",
-    "index.html": "/MicrosoftWebsite/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/MicrosoftWebsite/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.b1a89cb5.chunk.js.LICENSE.txt": "/MicrosoftWebsite/static/js/2.b1a89cb5.chunk.js.LICENSE.txt"
+    "main.css": "/BethelWeb/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/BethelWeb/static/js/main.d29fd49a.chunk.js",
+    "main.js.map": "/BethelWeb/static/js/main.d29fd49a.chunk.js.map",
+    "runtime-main.js": "/BethelWeb/static/js/runtime-main.8ebfb563.js",
+    "runtime-main.js.map": "/BethelWeb/static/js/runtime-main.8ebfb563.js.map",
+    "static/js/2.a611a492.chunk.js": "/BethelWeb/static/js/2.a611a492.chunk.js",
+    "static/js/2.a611a492.chunk.js.map": "/BethelWeb/static/js/2.a611a492.chunk.js.map",
+    "static/js/3.0a0719a8.chunk.js": "/BethelWeb/static/js/3.0a0719a8.chunk.js",
+    "static/js/3.0a0719a8.chunk.js.map": "/BethelWeb/static/js/3.0a0719a8.chunk.js.map",
+    "index.html": "/BethelWeb/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/BethelWeb/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.a611a492.chunk.js.LICENSE.txt": "/BethelWeb/static/js/2.a611a492.chunk.js.LICENSE.txt",
+    "static/media/bethel.52efaaf9.png": "/BethelWeb/static/media/bethel.52efaaf9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.495623ba.js",
-    "static/js/2.b1a89cb5.chunk.js",
+    "static/js/runtime-main.8ebfb563.js",
+    "static/js/2.a611a492.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.1ad29af8.chunk.js"
+    "static/js/main.d29fd49a.chunk.js"
   ]
 }
