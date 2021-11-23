@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MicrosoftWebsite/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/MicrosoftWebsite/static/js/main.1ad29af8.chunk.js",
+    "main.js.map": "/MicrosoftWebsite/static/js/main.1ad29af8.chunk.js.map",
+    "runtime-main.js": "/MicrosoftWebsite/static/js/runtime-main.495623ba.js",
+    "runtime-main.js.map": "/MicrosoftWebsite/static/js/runtime-main.495623ba.js.map",
+    "static/js/2.b1a89cb5.chunk.js": "/MicrosoftWebsite/static/js/2.b1a89cb5.chunk.js",
+    "static/js/2.b1a89cb5.chunk.js.map": "/MicrosoftWebsite/static/js/2.b1a89cb5.chunk.js.map",
+    "static/js/3.3ed8819c.chunk.js": "/MicrosoftWebsite/static/js/3.3ed8819c.chunk.js",
+    "static/js/3.3ed8819c.chunk.js.map": "/MicrosoftWebsite/static/js/3.3ed8819c.chunk.js.map",
+    "index.html": "/MicrosoftWebsite/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/MicrosoftWebsite/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b1a89cb5.chunk.js.LICENSE.txt": "/MicrosoftWebsite/static/js/2.b1a89cb5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.495623ba.js",
+    "static/js/2.b1a89cb5.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.1ad29af8.chunk.js"
+  ]
+}
