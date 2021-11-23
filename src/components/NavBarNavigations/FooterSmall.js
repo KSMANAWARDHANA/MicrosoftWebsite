@@ -6,7 +6,7 @@ import {AiOutlineCopyrightCircle} from "react-icons/ai"
 export default function FooterSmall() {
     return (
         <div>
-          <nav id="footer" className="bg-gray-300 mt-12 flex items-center justify-between flex-wrap bg-white py-12">
+          <nav id="footer" className="bg-red-100 mt-12 flex items-center justify-between flex-wrap bg-white py-12">
                 
               <div className="flex items-center flex-shrink-0 text-black mr-6">
                     <GrLanguage className="ml-4 text-sm text-black"/><span className="ml-1 font-semibold text-sm tracking-tight text-black hover:underline">English(United States)</span>

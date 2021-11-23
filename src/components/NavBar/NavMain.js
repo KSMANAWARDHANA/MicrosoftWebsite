@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarBottom from './NavBarBottom';
+//import NavbarBottom from './NavBarBottom';
 import SideBarOne from './SideBarOne';
 import NavBarLast from './NavBarLast';
 import NavBar from './NavBar';
@@ -9,7 +9,7 @@ export default function NavMain() {
     return (
         <div>
             <NavBar/>
-            <NavbarBottom/>
+            {/* <NavbarBottom/> */}
             <NavBarLast/>
             <SideBarOne/>
             {/* <Footer/> */}

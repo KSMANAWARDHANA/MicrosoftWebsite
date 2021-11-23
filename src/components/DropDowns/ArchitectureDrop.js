@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router,Link } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import { createPopper } from "@popperjs/core";
 
 const ArchiDrop = () => {
@@ -18,7 +18,7 @@ const ArchiDrop = () => {
   };
   return (
     <>
-    <Router>
+    <>
     <a
         className="hover:underline lg:text-black lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-sm font-normal"
         href="#pablo"
@@ -91,7 +91,7 @@ const ArchiDrop = () => {
         </Link>
         
       </div>
-    </Router>
+    </>
       
     </>
   );

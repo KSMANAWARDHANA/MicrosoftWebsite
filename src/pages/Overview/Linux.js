@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 //import { BsDot } from "react-icons/bs";
-import { FaCheck } from "react-icons/fa";
+//import { FaCheck } from "react-icons/fa";
 import Wrapper from "../../components/NavBar/Wrapper";
 
 function Linux() {
@@ -18,11 +18,11 @@ function Linux() {
                    <div className="uppercase tracking-wide text-sm text-Black font-semibold">
                    
                    {/*Paragraph One*/}
-                   <h1 className="font-semibold text-3xl mt-1">Linux Virtual Machines In Azure</h1>
+                   <h1 className="font-semibold text-3xl mt-1">Bethel Overview</h1>
                    </div>
 
                   
-                     <ul class="flex flex-col lg:flex-row list-none ml-auto">
+                     {/* <ul class="flex flex-col lg:flex-row list-none ml-auto">
 
                          <li class="nav-item">
                          <span class="ml-1">10/22/2021</span>
@@ -54,19 +54,22 @@ function Linux() {
                        <li class="nav-item">
                          <span class="ml-1 font-normal text-sm mt-1">Flexible Scale Sets</span>
                        </li>
-                   </ul>
+                   </ul> */}
 
                    {/* <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a> */}
                        <p className="mt-2 text-black leading-relaxed">
-                               Azure Virtual Machines (VM) is one of several types of <a href="#" className="font-normal text-blue-600 hover:underline">on-demand, scalable computing resources</a> that Azure offers. Typically, you choose a VM when you need more control over the computing environment than the other choices offer. This article gives you information about what you should consider before you create a VM, how you create it, and how you manage it.
-                               An Azure VM gives you the flexibility of virtualization without having to buy and maintain the physical hardware that runs it. However, you still need to maintain the VM by performing tasks, such as configuring, patching, and installing the software that runs on it.
-                               Azure virtual machines can be used in various ways. Some examples are:
+                       As Bethel, a containerized, decentralized, multi-language blockchain development platform, encourages software developers to move their existing solutions to blockchain technology and utilize its robust capabilities when it comes to transparency, security, 
 
+
+            BETHEL 
+
+          Bethel, a containerized, decentralized, multi-language blockchain development platform, encourages software developers to move their existing solutions to blockchain technology and utilize its robust capabilities. It is one of the best creations so far, which enables users to satisfy all their blockchain development needs with advanced technology. With BETHEL, users can now effortlessly integrate blockchain technology into their projects without having to worry about getting used to the environment. With multi-language support and enhanced scalability, developers can seamlessly use and customize this blockchain development platform to fit their needs accordingly. A highly innovative blockchain development kit that provides the basis to all other projects under the FutureCX umbrella, BETHEL assists and supports all blockchain-driven innovations and projects, reiterating our commitment towards blockchain development.
+                            {/* 
                              <ul className="mt-4 ml-10 list-none md:list-disc font-semibold">
                                <li >Development and test</li> 
                                <li >Applications in the cloud</li>
                                <li >Extended datacenter</li>
-                             </ul>
+                             </ul> */}
 
                          </p>
 
@@ -75,7 +78,7 @@ function Linux() {
                        </p>
 
                        {/*Paragraph Two*/}
-                       <h1 className="font-semibold text-3xl mt-1">What do I need to think about before creating a VM?</h1>
+                       <h1 className="font-semibold text-3xl mt-1">For Developers</h1>
 
                      <p className="mt-4 text-black leading-relaxed">
                        There are always a multitude of <a href="#" className="font-normal text-blue-600 hover:underline">design considerations</a>when you build out an application infrastructure in Azure. These aspects of a VM are important to think about before you start:

@@ -7,7 +7,7 @@ import * as RiIcons from 'react-icons/ri';
 export const SideData = [
     
     {
-        title:'Virtual Machines Documentation',
+        title:'Bethel Deployment Documentation',
         path:'/',
     },
 
@@ -75,347 +75,347 @@ export const SideData = [
         ]
     },
 
-    {
-        title:'Develop',
-        path:'/develop',
+    // {
+    //     title:'Develop',
+    //     path:'/develop',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'REST API',
-                path:'/develop/restapi',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'REST API',
+    //             path:'/develop/restapi',
                
-            },
+    //         },
 
-            {
-                title:'Python',
-                path:'/develop/python',
+    //         {
+    //             title:'Python',
+    //             path:'/develop/python',
                
-            },
+    //         },
 
-            {
-                title:'.NET',
-                path:'/develop/net',
+    //         {
+    //             title:'.NET',
+    //             path:'/develop/net',
                
-            },
+    //         },
 
-            {
-                title:'Java',
-                path:'/develop/java',
+    //         {
+    //             title:'Java',
+    //             path:'/develop/java',
                
-            },
+    //         },
 
-            {
-                title:'Go',
-                path:'/develop/go',
+    //         {
+    //             title:'Go',
+    //             path:'/develop/go',
                
-            },
-        ]
-    },
+    //         },
+    //     ]
+    // },
 
-    {
-        title:'Workloads',
-        path:'/workloads',
+    // {
+    //     title:'Workloads',
+    //     path:'/workloads',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'RedHat',
-                path:'/workloads/redhat',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'RedHat',
+    //             path:'/workloads/redhat',
                
-            },
+    //         },
 
-            {
-                title:'Cloud Foundry',
-                path:'/workloads/cloud',
+    //         {
+    //             title:'Cloud Foundry',
+    //             path:'/workloads/cloud',
                
-            },
+    //         },
 
-            {
-                title:'OpenShift',
-                path:'/workloads/openshift',
+    //         {
+    //             title:'OpenShift',
+    //             path:'/workloads/openshift',
                
-            },
+    //         },
 
-            {
-                title:'SAP on Azure',
-                path:'/workloads/sap',
+    //         {
+    //             title:'SAP on Azure',
+    //             path:'/workloads/sap',
                
-            },
+    //         },
 
-            {
-                title:'Oracle',
-                path:'/workloads/oracle',
+    //         {
+    //             title:'Oracle',
+    //             path:'/workloads/oracle',
                
-            },
+    //         },
 
-            {
-                title:'Azure for Gaming',
-                path:'/workloads/azuregaming',
+    //         {
+    //             title:'Azure for Gaming',
+    //             path:'/workloads/azuregaming',
                
-            },
+    //         },
 
-            {
-                title:'ElasticSearch',
-                path:'/workloads/elastic',
+    //         {
+    //             title:'ElasticSearch',
+    //             path:'/workloads/elastic',
                
-            },
+    //         },
 
-            {
-                title:'Mainframe rehosting',
-                path:'/workloads/rehosting',
+    //         {
+    //             title:'Mainframe rehosting',
+    //             path:'/workloads/rehosting',
                
-            },
-        ]
-    },
+    //         },
+    //     ]
+    // },
 
-    {
-        title:'Instances',
-        path:'/instances',
+    // {
+    //     title:'Instances',
+    //     path:'/instances',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Sizes',
-                path:'/instances/sizes',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Sizes',
+    //             path:'/instances/sizes',
                
-            },
+    //         },
 
-            {
-                title:'Azure Compute Gallery',
-                path:'/instances/azurecompute',
+    //         {
+    //             title:'Azure Compute Gallery',
+    //             path:'/instances/azurecompute',
                
-            },
+    //         },
 
-            {
-                title:'Images',
-                path:'/instances/images',
+    //         {
+    //             title:'Images',
+    //             path:'/instances/images',
                
-            },
+    //         },
 
-            {
-                title:'Dedicated hosts',
-                path:'/instances/hosts',
+    //         {
+    //             title:'Dedicated hosts',
+    //             path:'/instances/hosts',
                
-            },
+    //         },
 
-            {
-                title:'Azure Spot Virtual Machines',
-                path:'/instances/azurespot',
+    //         {
+    //             title:'Azure Spot Virtual Machines',
+    //             path:'/instances/azurespot',
                
-            },
+    //         },
 
-            {
-                title:'Reserved instances',
-                path:'/instances/reserve',
+    //         {
+    //             title:'Reserved instances',
+    //             path:'/instances/reserve',
                
-            },
+    //         },
 
-            {
-                title:'Capacity reservation',
-                path:'/instances/capacity',
+    //         {
+    //             title:'Capacity reservation',
+    //             path:'/instances/capacity',
                
-            },
+    //         },
 
-            {
-                title:'Create Virtual Machines',
-                path:'/instances/createVM',
+    //         {
+    //             title:'Create Virtual Machines',
+    //             path:'/instances/createVM',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Availability and scale',
-        path:'/availability',
+    // {
+    //     title:'Availability and scale',
+    //     path:'/availability',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/availability/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/availability/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/availability/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/availability/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Disks',
-        path:'/disks',
+    // {
+    //     title:'Disks',
+    //     path:'/disks',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/disks/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/disks/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/disks/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/disks/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Networking',
-        path:'/networking',
+    // {
+    //     title:'Networking',
+    //     path:'/networking',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/networking/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/networking/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/networking/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/networking/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Security',
-        path:'/security',
+    // {
+    //     title:'Security',
+    //     path:'/security',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/security/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/security/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/security/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/security/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Updates and maintenance',
-        path:'/updates',
+    // {
+    //     title:'Updates and maintenance',
+    //     path:'/updates',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/updates/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/updates/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/updates/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/updates/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Monitoring',
-        path:'/monitoring',
+    // {
+    //     title:'Monitoring',
+    //     path:'/monitoring',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/monitoring/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/monitoring/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/monitoring/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/monitoring/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Backup and recovery',
-        path:'/backup',
+    // {
+    //     title:'Backup and recovery',
+    //     path:'/backup',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/backup/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/backup/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/backup/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/backup/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Infrastructure automation',
-        path:'/infrastructure',
+    // {
+    //     title:'Infrastructure automation',
+    //     path:'/infrastructure',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/infrastructure/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/infrastructure/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/infrastructure/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/infrastructure/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
-    {
-        title:'Resources',
-        path:'/resources',
+    // {
+    //     title:'Resources',
+    //     path:'/resources',
        
-        iconClosed:<RiIcons.RiArrowDropDownLine/>,
-        iconOpened:<RiIcons.RiArrowDropUpLine/>,
-        subNav:[
-            {
-                title:'Linux',
-                path:'/resources/linux',
+    //     iconClosed:<RiIcons.RiArrowDropDownLine/>,
+    //     iconOpened:<RiIcons.RiArrowDropUpLine/>,
+    //     subNav:[
+    //         {
+    //             title:'Linux',
+    //             path:'/resources/linux',
                
-            },
+    //         },
 
-            {
-                title:'Windows',
-                path:'/resources/Windows',
+    //         {
+    //             title:'Windows',
+    //             path:'/resources/Windows',
                
-            }
-        ]
-    },
+    //         }
+    //     ]
+    // },
 
     {
         title:'Support and troubleshooting',
