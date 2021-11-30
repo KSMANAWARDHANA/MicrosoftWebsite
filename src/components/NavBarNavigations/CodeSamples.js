@@ -19,7 +19,7 @@ export default function CodeSamples() {
         {/*gray grid */}
 
 
-        <div className="-mt-2 bg-gray-300 grid grid-cols-6 gap-2 h-1/2 ">
+        <div className="-mt-2 bg-red-200 grid grid-cols-6 gap-2 h-1/2 ">
         
             <div className="bg-transparent p-3 rounded-lg mt-4 row-span-6 mb-4 ml-4">
                <ComputeSidebar/>

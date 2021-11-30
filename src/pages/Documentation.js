@@ -12,7 +12,7 @@ function Doc() {
     <>
       <Wrapper>
 
-      <h1 className="ml-48 font-semibold text-3xl  px-48 -mt-4">Bethel Deployment Documentation</h1>
+      <h1 className="ml-48 font-semibold text-3xl  px-48 -mt-4 text-red-800">Bethel Deployment Documentation</h1>
       <h5 className="ml-48 font-normal mt-1 px-48">Documentation for creating and managing virtual machines in bethel</h5>
       
       <div className="mt-4 ml-48 px-48 grid grid-cols-1/ sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
@@ -47,9 +47,9 @@ function Doc() {
                         <VscRocket className="-ml-2 text-lg leading-lg text-red-600" /><span className="ml-1 text-gray-700 text-sm font-semibold">QUICKSTART</span>
                         </li>
                       
-                        <li className="hover:underline"><a href="/linuxQuick/azurePortal">Bethel Portal</a></li>
+                        <li className="hover:underline"><a href="/Bethel/Quickstart/BethelPortal">Bethel Portal</a></li>
                         <li className="hover:underline"><a href="/linuxQuick/azureCli">Bethel CLI</a></li>
-                        <li className="hover:underline"><a href="/linuxQuick/azurePowershell">Bethel PowerShell</a></li>
+                       
                     </ul>
                 </div>
             </div>

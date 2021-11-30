@@ -7,15 +7,15 @@ export default function Documentation() {
     return (
         <div>
             <NavBar/>
-                <div className="py-10 bg-blue-800" >
+                <div className="py-10 bg-red-600" >
                     <div className=" px-4">
-                        <h3 className="text-md tracking-widest mb-0 text-gray-200 uppercase">Welcome to Microsoft Documentation</h3>
+                        <h3 className="text-md tracking-widest mb-0 text-gray-200 uppercase">Welcome to Bethel Documentation</h3>
                         <h2 className="text-3xl font-bold mb-2 text-white">Technical Documentation</h2>
-                        <h3 className="text-xl mb-4 text-gray-200">Search for in-depth articles on Microsoft developer tools and technologies.</h3>
+                        <h3 className="text-xl mb-4 text-gray-200">Search for in-depth articles on Bethel developer tools and technologies.</h3>
                         <div class="flex w-full ">
                                 <div class="flex  rounded">
                                     <input type="text" class="px-48 py-2 w-80" placeholder="Search..."/>
-                                    <button class="ml-2 px-4 text-white bg-blue-600 ">
+                                    <button class="ml-2 px-4 text-white bg-gray-600 ">
                                         Search
                                     </button>
                                 </div>
@@ -37,7 +37,7 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    .NET
                                 </a>
@@ -47,7 +47,7 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                   >
                                    ASP.NET
                                 </a>
@@ -57,7 +57,7 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Azure
                                 </a>
@@ -67,7 +67,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Azure Architecture Center
                                 </a>
@@ -78,7 +78,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Azure DevOps
                                 </a>
@@ -89,7 +89,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    C++
                                 </a>
@@ -100,7 +100,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    C#
                                 </a>
@@ -111,7 +111,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Dynamics 365
                                 </a>
@@ -130,7 +130,7 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Gaming
                                 </a>
@@ -140,9 +140,9 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                   >
-                                   Microsoft 365
+                                   Bethel 365
                                 </a>
                       </li>
 
@@ -150,9 +150,9 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
-                                   Microsoft Edge
+                                   Bethel Edge
                                 </a>
                       </li>
 
@@ -160,20 +160,9 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
-                                   Microsoft Security
-                                </a>
-
-                      </li>
-
-                      <li>
-                                  <a
-                                    href="/admin/dashboard"
-                                    exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
-                                >
-                                   Microsoft Teams
+                                   Bethel Security
                                 </a>
 
                       </li>
@@ -182,7 +171,18 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
+                                >
+                                   Bethel Teams
+                                </a>
+
+                      </li>
+
+                      <li>
+                                  <a
+                                    href="/admin/dashboard"
+                                    exact
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    OneDrive
                                 </a>
@@ -193,7 +193,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Power Apps
                                 </a>
@@ -204,7 +204,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Power BI
                                 </a>
@@ -224,7 +224,7 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Power Platform
                                 </a>
@@ -234,7 +234,7 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                   >
                                    PowerShell
                                 </a>
@@ -244,7 +244,7 @@ export default function Documentation() {
                                 <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    SharePoint
                                 </a>
@@ -254,7 +254,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    SQL Server
                                 </a>
@@ -265,7 +265,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Visual Basic
                                 </a>
@@ -276,7 +276,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Visual Studio
                                 </a>
@@ -287,7 +287,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Windows
                                 </a>
@@ -298,7 +298,7 @@ export default function Documentation() {
                                   <a
                                     href="/admin/dashboard"
                                     exact
-                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-blue-700 font-light  rounded-lg"
+                                    className="flex items-left gap-4 text-lg hover:bg-gray-100 hover:underline font-semibold text-red-700 font-light  rounded-lg"
                                 >
                                    Xamarin
                                 </a>
@@ -319,9 +319,9 @@ export default function Documentation() {
                 <img className= "fill-current h-24 w-24 mr-2 ml-2"   alt="" src="https://media.istockphoto.com/vectors/hexagon-shape-icon-with-the-concept-of-looking-for-a-smartphone-vector-id1050915816?k=20&m=1050915816&s=170667a&w=0&h=aV-ttIA6q-1_Uht7TFYs3AE8oA6kWwp9HsURMUE7x70=" />
                 </div>
                 <div class="w-3/4 bg-gray-200 h-32 flex flex-col justify-center px-1 rounded-r-lg body-step">
-                    <h2 class="font-semibold text-lg text-blue-600 ml-2">Microsoft End User Support</h2>
+                    <h2 class="font-semibold text-lg text-blue-600 ml-2">Bethel End User Support</h2>
                     <p class="ml-2 text-sm text-gray-800 font-semibold">
-                    Get end user support for Office, Windows, Surface, and more. Visit our Microsoft support site for assistance.
+                    Get end user support for Office, Windows, Surface, and more. Visit our Bethel support site for assistance.
                     </p>
                 </div>
             </div>
@@ -332,9 +332,9 @@ export default function Documentation() {
                 <img className= "fill-current h-24 w-24 mr-2 ml-2"   alt="" src="https://media.istockphoto.com/vectors/hexagon-shape-icon-with-the-concept-of-looking-for-a-smartphone-vector-id1050915816?k=20&m=1050915816&s=170667a&w=0&h=aV-ttIA6q-1_Uht7TFYs3AE8oA6kWwp9HsURMUE7x70=" />
                 </div>
                 <div class="w-3/4 bg-gray-200 h-32 flex flex-col justify-center px-1 rounded-r-lg body-step">
-                    <h2 class="font-semibold text-lg text-blue-600 ml-2">Microsoft End User Community</h2>
+                    <h2 class="font-semibold text-lg text-blue-600 ml-2">Bethel End User Community</h2>
                     <p class="ml-2 text-sm text-gray-800 font-semibold">
-                    End user Questions, issues, discussions, and knowledge sharing. Visit our Microsoft answers community to begin.
+                    End user Questions, issues, discussions, and knowledge sharing. Visit our Bethel answers community to begin.
                     </p>
                 </div>
             </div>

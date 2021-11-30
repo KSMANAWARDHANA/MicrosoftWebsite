@@ -1,9 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-// import PagesDropdown from './../DropDowns/ProductDoc';
-// import ArchiDrop from './../DropDowns/ArchitectureDrop';
-// import LearnAzDrop from './../DropDowns/LearnAzureDrop';
-// import MoreDrop from '../DropDowns/MoreDrop';
 export default function NavBarBottom(){
     return(
         <>
@@ -14,22 +10,7 @@ export default function NavBarBottom(){
             </div>
 
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                {/* <div className="text-sm" >
-                   
-                    <PagesDropdown  className="hover:underline block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-800 mr-4"/>
-                </div>
-                <div className="text-sm" >
-                   
-                    <ArchiDrop  className="hover:underline block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-800 mr-4"/>
-                </div>
-                <div className="text-sm" >
-                   
-                    <LearnAzDrop  className="hover:underline block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-800 mr-4"/>
-                </div>
-                <div className="text-sm" >
-                   
-                    <MoreDrop  className="hover:underline block mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue-800 mr-4"/>
-                </div> */}
+
             </div>
 
             <div class="lg:flex flex-grow items-center">

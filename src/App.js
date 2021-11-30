@@ -6,8 +6,8 @@ import Register from './pages/Register';
 //import Footer from './components/NavBar/Footer';
 
 //sidebar subnav pages
-import Linux from './pages/Overview/Linux';
-import Windows from './pages/Overview/Windows';
+// import Linux from './pages/Overview/Linux';
+// import Windows from './pages/Overview/Windows';
 import LinuxVM from './pages/QuickStart/LinuxVM';
 import WindowsVM from './pages/QuickStart/WindowsVM';
 
@@ -39,6 +39,11 @@ import Proximity from './pages/VMdocumentation/cardOnePages/Proximity';
 import VMscale from './pages/VMdocumentation/cardOnePages/VMscale';
 import VMscaleSets from './pages/VMdocumentation/cardOnePages/VMscaleSets';
 import Save from './components/NavLastNavigations/Save';
+import Overview from './pages/Overview';
+
+
+import LandingPage from './LandingPages/LandingPage';
+import LandingPricing from './LandingPages/LandingPricing';
 
 
 
@@ -48,19 +53,24 @@ function App() {
     <>
    
      <Routes>
+
+         <Route path='/' element={<LandingPage/>}/>
+         <Route path='/pricing' element={<LandingPricing/>}/>
+         
         
-        <Route path='/' element={<Doc/>}/>
+        <Route path='/doc' element={<Doc/>}/>
        
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
 
         {/*Overview tab routes */}
-        <Route path='/overview/aboutlinux' element={<Linux/>}/>
-        <Route path='/overview/aboutwin' element={<Windows/>}/>
+        {/* <Route path='/overview/aboutlinux' element={<Linux/>}/>
+        <Route path='/overview/aboutwin' element={<Windows/>}/> */}
+        <Route path='/Bethel/overview' element={<Overview/>}/>
 
         {/*QuickStart tab routes */}
-        <Route path='/quickstart/linuxVM' element={<LinuxVM/>}/>
-        <Route path='/quickstart/windowsVM' element={<WindowsVM/>}/>
+        <Route path='/Bethel/Quickstart/BethelPortal' element={<LinuxVM/>}/>
+        <Route path='/Bethel/Quickstart/BethelCLI' element={<WindowsVM/>}/>
 
          {/*Top navbar components routes */}
          <Route path='/navbar/documentation' element={<Documentation/>}/>

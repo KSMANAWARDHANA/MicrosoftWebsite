@@ -8,28 +8,28 @@ export const SideData = [
     
     {
         title:'Bethel Deployment Documentation',
-        path:'/',
+        path:'/doc',
     },
 
 
     {
         title:'Overview',
-        path:'',
+        path:'/Bethel/overview',
        
         iconClosed:<RiIcons.RiArrowDropDownLine/>,
         iconOpened:<RiIcons.RiArrowDropUpLine/>,
         subNav:[
-            {
-                title:'About Linux Virtual Machines',
-                path:'/overview/aboutlinux',
+            // {
+            //     title:'About Linux Virtual Machines',
+            //     path:'/overview/aboutlinux',
                
-            },
+            // },
 
-            {
-                title:'About Windows Virtual Machines',
-                path:'/overview/aboutwin',
+            // {
+            //     title:'About Windows Virtual Machines',
+            //     path:'/overview/aboutwin',
                
-            }
+            // }
         ]
     },
 
@@ -41,16 +41,18 @@ export const SideData = [
         iconOpened:<RiIcons.RiArrowDropUpLine/>,
         subNav:[
             {
-                title:'Create a Linux VM',
-                path:'/quickstart/linuxVM',
+                title:'Bethel Portal',
+                path:'/Bethel/Quickstart/BethelPortal',
                
             },
 
             {
-                title:'Create a Windows VM',
-                path:'/quickstart/windowsVM',
+                title:'Bethel CLI',
+                path:'/Bethel/Quickstart/BethelCLI',
                
-            }
+            },
+
+            
         ]
     },
 

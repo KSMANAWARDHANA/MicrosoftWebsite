@@ -5,39 +5,26 @@ export default function NavBar(){
     return(
         <>
       
-        <nav className="flex items-center justify-between flex-wrap bg-white py-4 divide-x-2 divide-black">
+        <nav className="flex items-center justify-between flex-wrap bg-red-100 py-4 divide-x-2 divide-red-600">
 
                 <div className="flex items-center flex-shrink-0 text-black mr-6">
                     <img className= "fill-current h-8 w-8 mr-2 ml-2"  width="54" height="54" alt="" src={bethel} />
                     
-                    <span className="font-semibold text-xl tracking-tight text-red-600">Bethel</span>
+                    <span className="font-semibold text-2xl tracking-wider text-red-600 uppercase">
+                    <a href="/">Bethel</a></span>
                 </div>
 
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-            <div className="text-sm ml-4">
-                <a href="/navbar/doc" className="hover:underline block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-800 mr-4 text-xl font-semibold">
-                    Docs
-                </a>
-                <a
-                 href='/navbar/documentation'
-                 className="hover:underline block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-800 mr-4">
+            <div className="text-md ml-6">
+                <a href="/navbar/doc" className="hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-600 hover:text-red-800 mr-4 text-md font-semibold">
                     Documentation
                 </a>
-                <a href="/navbar/learn" className="hover:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-800">
-                    Learn
-                </a>
-                <a href="/navbar/qa" className="ml-2 hover:underline mr-4 block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-800">
-                    Q&A
-                </a>
-                <a href="/navbar/codeSample" className="hover:underline mr-4 block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-800">
+               
+               
+                <a href="/navbar/codeSample" className="hover:underline mr-4 block mt-4 lg:inline-block lg:mt-0 text-red-600 font-semibold hover:text-red-800">
                     CodeSamples
                 </a>
-                <a href="/navbar/shows" className="hover:underline mr-4 block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-800">
-                Shows
-                </a>
-                <a href="/navbar/events" className="hover:underline mr-4 block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-800">
-                Events
-                </a>
+               
             </div>
 
             <div class="lg:flex flex-grow items-center">
@@ -59,15 +46,15 @@ export default function NavBar(){
                     href='http://20.115.6.19/login'
                     target='_self'
                     >
-                    <li class="nav-item ">
-                        <button className="ml-4 text-red-600  px-2 text-sm hover:underline mr-4 block mt-4 lg:inline-block lg:mt-0  hover:text-red-800 hover:bg-red-300 hover:underline">Sign In</button>
+                    <li class="nav-item text-bold">
+                        <button className="ml-4 text-red-600 text-bold  px-2  hover:underline mr-4 block mt-4 lg:inline-block lg:mt-0  hover:text-red-800 hover:bg-red-300 hover:underline">Sign In</button>
                     </li>
                     </a>
                 </ul>
             </div>
         </div>
     </nav>
-    <hr className="border-red-300"/>
+    {/* <hr className="border-red-300"/> */}
 </>
     )
 }
